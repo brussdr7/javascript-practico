@@ -124,3 +124,15 @@ function calcularAreaCirculo() {
     const area = areaCirculo(value);
     alert(area);
 }
+
+// Reto calcular triangulo isoseles
+function alturaTRinaguloIsoseles(pata1, pata2, base) {
+    if(pata1 == pata2) {
+        const mitad = base / 2;
+        const operacion = (pata1 * pata2) - (mitad * mitad);
+        const resultado = Math.sqrt(operacion);
+        console.log(resultado);
+    } else {
+        console.log("los lados no corresponden al de un triangulo isoseles");
+    }
+}
