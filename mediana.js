@@ -1,17 +1,52 @@
-const lista1 = [10, 20, 3, 345, 48975934];
+function calcularMediaAritmetica(lista) {
+    const sumaLista = lista.reduce(
+        function (valorAcumulado = 0, nuevoValor) {
+            return valorAcumulado + nuevoValor;
+        }
+    );
+    const promedioLista = sumaLista / lista.length;
 
-const mitadLista1 = lista1 / 2;
+    return promedioLista;
+}
 
-function esPar(numero) {
-    if(numero % 2 === 0) {
-        return true;
+function esPar(numerito) {
+    if (numerito % 2 === 0) {
+      return true;
     } else {
-        return false;
+      return false;
     }
 }
 
-if(esPar(lista1.length)) {
+const numeros = [0, 2, 3, 4,]
 
-} else {
-    mediana = lista1[mitadLista1];
+
+function calcularMediana(lista) {
+
+    const inputLista = document.getElementById("inputLista");
+    const listaValue = inputLista.value;
+
+    let nuevaArray = Array.from(listaValue.split(","), Number);
+
+    const listaNumeros = nuevaArray.sort();
+    console.log(listaNumeros);
+
+    const mitadLista = parseInt(listaNumeros.length / 2);
+    
+    let mediana;
+
+    if (esPar(listaNumeros.length)) {
+        const elemento1 = listaNumeros[mitadLista - 1];
+        const elemento2 = listaNumeros[mitadLista];
+
+        const promedioElemento1y2 = calcularMediaAritmetica([
+        elemento1,
+        elemento2,
+        ]);
+        mediana = promedioElemento1y2;
+        console.log(mediana);
+    } else {
+        mediana = listaNumeros[mitadLista];
+        console.log(mediana);
+    }
 }
+
