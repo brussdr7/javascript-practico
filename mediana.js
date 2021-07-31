@@ -17,9 +17,6 @@ function esPar(numerito) {
     }
 }
 
-const numeros = [0, 2, 3, 4,]
-
-
 function calcularMediana(lista) {
 
     const inputLista = document.getElementById("inputLista");
