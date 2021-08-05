@@ -64,6 +64,9 @@ function calcularMontEndeuda(ingresos, gastos) {
     return montoEndeudamiento;
 }
 
+// Calculo impuesto sobre la renta
+
+
 function calcularPuntoEquilibrio(objeto) {
     resta = objeto.precio - objeto.costoVariable;
     const puntoEquilibrio = objeto.costoFijo / resta;

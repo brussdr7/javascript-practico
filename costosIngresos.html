@@ -7,7 +7,9 @@
     <title>Costos Ingresos y Ganancia</title>
 </head>
 <body>
-    <h1>Calcula tus costos ingresos y ganancias</h1>
+    <h1>
+        Calcula tus ahorros ingresos y capacidad de endeudamiento
+    </h1>
     <form>
         <label for="inputIngresos">Enlista tus ingresos mensuales</label>
         <input type="text" id="inputIngresos" placeholder="ej. 100,20,10,30,50"/>
@@ -15,6 +17,12 @@
         <input type="text" id="inputGastos" placeholder="ej. 100,20,10,30,50"/>
         <button type="button" onclick="calcularTodo()">
             Calcular
+        </button>
+        <h2>Calcula tu impuesto sobre la renta</h2>
+        <label>Ingresa tu sueldo mensual</label>
+        <input type="number" id="inputSueldo">
+        <button type="button">
+            Calcula tu ISR
         </button>
     </form>
     <script src="./costosIngresos.js"></script>
