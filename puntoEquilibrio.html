@@ -13,19 +13,31 @@
     <div id="constainer">
         <h1>Calcula el punto de equilibrio de tus poductos</h1>
         <form>
-            <h2>Ingresa el producto que quieres analizar</h2>
-            <label for="inputName">ingresa el nombre</label>
-            <input type="text" id="inputName">
-            <label for="inputPrecio">ingresa el precio</label>
-            <input type="number" id="inputPrecio">
-            <label for="inputCostoV">Ingresa el costo variable</label>
-            <input type="number" id="inputCostoV">
-            <label for="inputCostoF">Ingresa el costo fijo</label>
-            <input type="number" id="inputCostoF">
-            <button type="button" onclick="createProduct()">
-                Crea tu producto
-            </button>
-            <p id="resultP"></p>
+            <div class="title">
+                <h2>Ingresa el producto que quieres analizar</h2>
+            </div>
+            <div class="item">
+                <label for="inputName">ingresa el nombre</label>
+                <input type="text" id="inputName">
+            </div>
+            <div class="item">
+                <label for="inputPrecio">ingresa el precio</label>
+                <input type="number" id="inputPrecio">
+            </div>
+            <div class="item">
+                <label for="inputCostoV">Ingresa el costo variable</label>
+                <input type="number" id="inputCostoV">
+            </div>
+            <div class="item">
+                <label for="inputCostoF">Ingresa el costo fijo</label>
+                <input type="number" id="inputCostoF">
+            </div>
+            <div class="result">
+                <button type="button" onclick="createProduct()" class="myButton">
+                    Calcula tu producto
+                </button>
+                <p id="resultP"></p>
+            </div>
         </form>
     </div>
     <script src="./puntoEquilirbio.js"></script>
