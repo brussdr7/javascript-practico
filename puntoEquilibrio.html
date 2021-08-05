@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./puntoEquilirbio.css">
+    <title>Punto de equilibrio</title>
+</head>
+
+<body>
+    <div id="constainer">
+        <h1>Calcula el punto de equilibrio de tus poductos</h1>
+        <form>
+            <h2>Ingresa el producto que quieres analizar</h2>
+            <label for="inputName">ingresa el nombre</label>
+            <input type="text" id="inputName">
+            <label for="inputPrecio">ingresa el precio</label>
+            <input type="number" id="inputPrecio">
+            <label for="inputCostoV">Ingresa el costo variable</label>
+            <input type="number" id="inputCostoV">
+            <label for="inputCostoF">Ingresa el costo fijo</label>
+            <input type="number" id="inputCostoF">
+            <button type="button" onclick="createProduct()">
+                Crea tu producto
+            </button>
+            <p id="resultP"></p>
+        </form>
+    </div>
+    <script src="./puntoEquilirbio.js"></script>
+</body>
+
+</html>

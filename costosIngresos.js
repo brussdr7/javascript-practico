@@ -1,9 +1,3 @@
-const vela = {
-    precio: 10,
-    costoVariable: 5,
-    costoFijo: 1000,
-};
-
 function calcularTodo() {
     const listaIngresos = document.getElementById("inputIngresos");
     const valueIngresos = listaIngresos.value;
@@ -66,10 +60,4 @@ function calcularMontEndeuda(ingresos, gastos) {
 
 // Calculo impuesto sobre la renta
 
-
-function calcularPuntoEquilibrio(objeto) {
-    resta = objeto.precio - objeto.costoVariable;
-    const puntoEquilibrio = objeto.costoFijo / resta;
-    return console.log(puntoEquilibrio);
-}
 
