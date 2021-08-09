@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/descuentos.css">
     <title>Porcentajes y descuentos | Curso practico de javascript</title>
 </head>
+
 <body>
-    <header>
-        <h1>
-            Prcentajes y descuentos
-        </h1>
-        <p>Este es el taller del curso practico de javascripy</p>
-    </header>
-    <section>
-        <h2>Calcular el precio a pagar de tus productos con descuento</h2>
-        <form>
-            <label for="inputPrice">Escribe el precio de tu producto</label>
-            <input type="number" id="inputPrice"/>
-            
-            <label for="inputCupon">Escribe el cupon de descuento para producto</label>
-            <input type="text" id="inputCupon"/>
-            <button type="button" onclick="onClickPriceDiscount()">Calcular el precio con descuento</button>
-            <p id="resultP"></p>
-        </form>
-    </section>
+    <div id="cotainer">
+        <div class="container-header">
+            <header>
+                <h1>
+                    Prcentajes y descuentos
+                </h1>
+                <p>Este es el taller del curso practico de javascripy</p>
+            </header>
+        </div>
+        <div class="item">
+            <div class="description">
+                <h2>Calcular el precio a pagar de tus productos con descuento</h2>
+            </div>
+            <div class="shop-container">
+                <form>
+                    <div>
+                        <label for="inputPrice">Escribe el precio de tu producto</label>
+                        <input type="number" id="inputPrice" />
+                    </div>
+                    <div>
+                        <label for="inputCupon">Escribe el cupon de descuento para producto</label>
+                        <input type="text" id="inputCupon" />
+                    </div>
+                    <div class="btn">
+                        <button type="button" onclick="onClickPriceDiscount()">
+                            Calcular el precio con descuento
+                        </button>
+                    </div>
+                    <div>
+                        <p id="resultP"></p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="./descuentos.js"> </script>
 </body>
+
 </html>
