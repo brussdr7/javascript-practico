@@ -40,9 +40,13 @@ function calcularMediana(lista) {
         elemento2,
         ]);
         mediana = promedioElemento1y2;
+        const getParrafo = document.getElementById("resultP");
+        getParrafo.innerText = "La mediana de tu lista es: " + mediana;
         console.log(mediana);
     } else {
         mediana = listaNumeros[mitadLista];
+        const getParrafo = document.getElementById("resultP");
+        getParrafo.innerText = "La mediana de tu lista es: " + mediana;
         console.log(mediana);
     }
 }

@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/mediana.css">
     <title>Mediana</title>
 </head>
+
 <body>
-    <h1>Calcula la mediana de tu lista de numeros</h1>
-    <form>
-        <label for="">Ingresa tu lista de numeros</label>
-        <input type="text" id="inputLista" placeholder="ej. 3,5,7,8,0,6,4">
-        <button type="button" onclick="calcularMediana()">
-            Calcula La mediana de tu lista
-        </button>
-    </form>
+    <div id="container">
+        <h1>Calcula la mediana de tu lista de numeros</h1>
+        <div class="container-form">
+            <form>
+                <div class="input-number">
+                    <label for="">Ingresa tu lista de numeros</label>
+                    <input type="text" id="inputLista" placeholder="ej. 3,5,7,8,0,6,4">
+                </div>
+                <div class="btn">
+                    <button type="button" onclick="calcularMediana()">
+                        Calcula La mediana de tu lista
+                    </button>
+                </div>
+                <p id="resultP"></p>
+            </form>
+        </div>
+    </div>
     <script src="./mediana.js"></script>
 </body>
+
 </html>

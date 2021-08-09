@@ -1,0 +1,41 @@
+body {
+    background: #8C3D35;
+    text-align: center;
+    font-family: Arial;
+    color: #D9BDAD;
+    margin: 0em;
+    padding: 0em;
+}
+#container {
+    display: grid;
+    margin: 100px 100px 100px 100px;
+    border: 1px solid #D9BDAD;
+    padding: 10px;
+    border-radius: 28px;
+}
+.input-number input {
+    border: 1px solid #8C3D35;
+    border-radius: 28px;
+    background: #D9BDAD;
+    padding: 5px;
+    outline: none;
+    color: gray;
+}
+.btn button {
+    border: 1px solid #8C3D35;
+    border-radius: 28px;
+    background: #D9BDAD;
+    padding: 5px;
+    color: gray;
+    outline: none;
+}
+.btn button:hover {
+    background: #F2955E;
+    color: gray;
+}
+.container-form form {
+    display: grid;
+}
+.input-number {
+    padding: 10px;
+}
