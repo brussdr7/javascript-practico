@@ -61,6 +61,23 @@ function calcularMontEndeuda(ingresos, gastos) {
 // Calculo impuesto sobre la renta
 const array = [3,6,9,12,15,18,21];
 
+
+const value = array.map(function(numero) {
+    const valor = 14;
+    if(numero > valor) {
+        
+    }
+});
+
+const intervalo = array.find(function(number) {
+    const valor = 14;
+    if(valor < number) {
+        return number -1;
+    }
+});
+
+console.log(intervalo);
+
 const result = array.filter(function(number) {
     const valor = 14;
     return number < valor;
@@ -68,9 +85,10 @@ const result = array.filter(function(number) {
 
 console.log(result);
 
-const intervalo = array.find(function(number) {
-    const valor = 14;
-    return number > valor;
-});
+for(let i = 0; i < array.length; i++) {
+    if(array[i] < 10) {
+        console.log(array[i]);
+    }
+}
 
-console.log(intervalo);
+const removed = array.splice();
