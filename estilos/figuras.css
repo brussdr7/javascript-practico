@@ -1,0 +1,29 @@
+body {
+    background: #D9D9D9;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    margin: 0em;
+    padding: 0em;
+}
+#container {
+    display: grid;
+    width: 70%;
+    padding: 1cm;
+    text-align: center;
+    margin: 100px 100px 100px 100px;
+    border: 1px solid #F2E205;
+    background: #F2EEB3;
+}
+.item {
+    display: grid;
+    grid-template: 100% / 50% 50%;
+    padding: 1em;
+    align-items: center;
+}
+.description {
+    display: grid;
+}
+.container-form form {
+    display: grid;
+}
