@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/promedio.css">
     <title>Promedio</title>
 </head>
+
 <body>
-    <h1>Promedio</h1>
+    <div id="container">
+        <div class="description">
+            <h1>Calcula tu Promedio</h1>
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="lbel">
+                    <label for="inputLista">Ingresa una lista</label>
+                </div>
+                <div class="ipt">
+                    <input type="text" id="inputLista" placeholder="ej. 4,78,9,43,7,2,4">
+                </div>
+                <div class="btn">
+                    <button type="button" onclick="calcularPromedio()">
+                        Promedio
+                    </button>
+                </div>
+                <div class="contRes">
+                    <p id="resultP"></p>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="./promedio.js"></script>
 </body>
+
 </html>

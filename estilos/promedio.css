@@ -1,0 +1,51 @@
+body {
+    background: #E8F2D8;
+    text-align: center;
+    font-family: Arial;
+    color: #213740;
+    margin: 0em;
+    padding: 0em;
+}
+#container {
+    background: #81A6A6;
+    display: grid;
+    color: #213740;
+    width: 70%;
+    padding: 10px;
+    margin: 100px 100px 100px 100px;
+    border: 1px solid #496B73;
+    border-radius: 20px;
+}
+.form-container form {
+    display: grid;
+}
+.lbel {
+    font-size: 20px;
+    margin: 10px;
+}
+.ipt {
+    margin: 10px;
+}
+.ipt input {
+    background: #E8F2D8;
+    outline: none;
+    color: #81A6A6;
+    border: 1px solid #E8F2D8;
+    border-radius: 20px;
+    padding: 5px;
+}
+.btn {
+    margin: 10px;
+}
+.btn button {
+    background: #E8F2D8;
+    outline: none;
+    border: 1px solid #E8F2D8;
+    border-radius: 20px;
+    padding: 5px;
+    color: #213740;
+}
+.btn button:hover {
+    background: #496B73;
+    border: 1px solid #496B73;
+}

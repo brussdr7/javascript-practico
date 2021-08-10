@@ -1,3 +1,15 @@
+function calcularPromedio() {
+    const inptLista = document.getElementById("inputLista");
+    const valueLista = inptLista.value;
+
+    const array = Array.from(valueLista.split(","), Number);
+    console.log(array);
+
+    const promedio = calcularMediaAritmetica(array);
+    const parrafo = document.getElementById("resultP");
+    parrafo.innerText = "El promedio es de: " + promedio;
+}
+
 function calcularMediaAritmetica(lista) {
     // let sumaLista = 0;
 
