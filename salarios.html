@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/salarios.css">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <title>Salarios</title>
 </head>
 <body>
-    <h1>Salarios</h1>
+    <div id="container">
+        <div class="title">
+            <h1>Salarios, media General y top 10 en colombia</h1>
+        </div>
+        <div class="description">
+            <p>
+                A partir de un analis salarial de veinte personas,
+                he realizado la media total y la media del top 10
+                de salarios en Colombia.
+            </p>
+            <p>
+                A continuacion se muestra la informacion:
+            </p>
+        </div>
+        <div class="information">
+            <p id="resultGen"></p>
+            <p id="resultTop"></p>
+        </div>
+    </div>
     <script src="./salarios.js"></script>
     <script src="./analisis.js"></script>
 </body>

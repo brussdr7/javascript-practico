@@ -76,7 +76,7 @@ colombia.push({
   salary: 2000,
 });
 colombia.push({
-  name: "Bill Gates",
-  salary: 100000000,
+  name: "Bruno Gates",
+  salary: 10000,
 });
 

@@ -48,7 +48,7 @@ const spliceTop10Col = ListaOrdenadaSalarios.splice(
 
 const medianaTop10Col = calcularMediaAritmetica(spliceTop10Col);
 
-console.log(
-    medianaGeneralCol,
-    medianaTop10Col,
-);
+const parrafo1 = document.getElementById("resultGen");
+parrafo1.innerText = "El promedio del sueldo en Colombia es de: " + medianaGeneralCol;
+const parrafo2 = document.getElementById("resultTop");
+parrafo2.innerText = "El promedio del top 10 del sueldo en Colombia es de: " + medianaTop10Col;

@@ -1,0 +1,25 @@
+body {
+    background: #29639B;
+    text-align: center;
+    color: #37D08D;
+    margin: 0em;
+    padding: 0em;
+    font-family: 'manjari';
+}
+#container {
+    display: grid;
+    background: #1F4F7D;
+    border: 1px solid #1F4F7D;
+    border-radius: 20px;
+    width: 70%;
+    margin: 100px 100px 100px 100px;
+    padding: 20px;
+}
+.information {
+    display: grid;
+    grid-template: 80px / 50% 50%;
+}
+.information p {
+    margin: 5px;
+    padding: 5px;
+}
