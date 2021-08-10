@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/moda.css">
     <title>Moda</title>
 </head>
 <body>
-    <h1>Calcula la moda de tu lista</h1>
+    <div id="container">
+        <div class="description">
+            <h1>Calcula la moda de tu lista</h1>
+        </div>
+        <div class="container-form">
+            <form>
+                <label for="">introduce tu lista</label>
+                <input type="text" id="inputLista">
+                <button type="button" onclick="obtenerData()">
+                    Obten moda
+                </button>
+                <p id="resultP"></p>
+            </form>
+        </div>
+    </div>
     <script src="./moda.js"></script>
 </body>
 </html>
