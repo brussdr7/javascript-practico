@@ -1,0 +1,27 @@
+body {
+    background: #232607;
+    color: #BF6849;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+}
+#header-container header {
+    display: grid;
+    grid-template: 100px / 200px 100%;
+    background: #35400C;
+    width: 100%;
+}
+.links ol {
+    display: grid;
+    grid-template: 30px / 70px 70px 70px 70px 70px 70px 70px;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    color: #BF6849;
+}
+a {
+    color: #BF6849;
+    text-decoration: none;
+}
